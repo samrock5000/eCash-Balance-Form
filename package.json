@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@psf/bch-js": "^4.20.1",
+    "@psf/bch-js": "^4.20.28",
     "axios": "^0.21.1",
     "bch-message-lib": "^1.13.9",
     "dotenv": "^10.0.0",
