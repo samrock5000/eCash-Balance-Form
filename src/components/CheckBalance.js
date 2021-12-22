@@ -46,8 +46,8 @@ const CheckBalance = (props) => {
 
     // first get BCH balance
     try {
-      const toEcashAdd = bchjs.Address.ecashtoCashAddress(props.props);
-      const balance = await bchjs.Electrumx.balance(toEcashAdd);
+      const toBcashAdd = bchjs.Address.ecashtoCashAddress(props.props);
+      const balance = await bchjs.Electrumx.balance(toBcashAdd);
       const bchDenom = bchjs.BitcoinCash.toBitcoinCash(
         balance.balance.confirmed
       );
